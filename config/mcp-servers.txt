@@ -1,0 +1,9 @@
+# MCP servers to restore (user scope).
+# Format:  name | transport | target
+#   transport: http | sse | stdio
+#   target:    URL          (for http/sse)
+#              command args  (for stdio, e.g. "npx -y some-mcp")
+# Lines starting with # and blank lines are ignored.
+# Add a server = add a line here. No need to touch restore.sh.
+
+mcp-proxy | http | http://127.0.0.1:8081/mcp

@@ -1,0 +1,181 @@
+# =========================
+# OS-specific hidden files
+# =========================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+.ICRanja
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.idms
+*.pdb
+*.tmp
+*.swp
+*.swo
+
+# Linux / common
+*~
+\#*\#
+
+
+# =========================
+# Cache directories (global)
+# =========================
+
+# Python
+__pycache__/
+*.py[cod]
+$mypy_cache/
+*.pyc
+*.pytest_cache/
+.ruff_cache/
+*.cache
+*.cache/*
+
+# Node / JS
+.node-cache/
+.npm-cache/
+.yarn/cache/
+
+# General
+.cache/
+.cache/*
+
+
+# =========================
+# Temp directories (global)
+# =========================
+
+tmp/
+tmp/*
+temp/
+temp/*
+*.tmp
+*.temp
+.svn/tmp/
+
+
+# =========================
+# Environment / secrets (global)
+# =========================
+
+.env
+.env.*
+!.env.example
+.envrc
+*.env
+*.local.env
+*.secret
+*.secret.*
+*.key
+*.pem
+*.p12
+*.jks
+
+
+# =========================
+# AI agent dirs: IGNORE ONLY cache/tmp/env/local files
+# Keep the dirs themselves for skills/commands
+# =========================
+
+# OhMyOpenagent
+.omo
+
+# Claude Code
+.claude/cache/
+.claude/cache/*
+.claude/tmp/
+.claude/tmp/*
+.claude/.env
+.claude/.env.*
+.claude/*.local.env
+.claude/settings.local.json
+.claude/*.local
+.claude/secrets*
+.claude/secrets/*
+
+# Cursor
+.cursor/cache/
+.cursor/cache/*
+.cursor/tmp/
+.cursor/tmp/*
+.cursor/.env
+.cursor/.env.*
+.cursor/*.local.env
+.cursor/settings.local.json
+.cursor/*.local
+.cursor/secrets*
+.cursor/secrets/*
+
+# Windsurf
+.windsurf/cache/
+.windsurf/cache/*
+.windsurf/tmp/
+.windsurf/tmp/*
+.windsurf/.env
+.windsurf/.env.*
+.windsurf/*.local.env
+.windsurf/settings.local.json
+.windsurf/*.local
+.windsurf/secrets*
+.windsurf/secrets/*
+
+# OpenCode (if you use it)
+.opencode/cache/
+.opencode/cache/*
+.opencode/tmp/
+.opencode/tmp/*
+.opencode/.env
+.opencode/.env.*
+.opencode/*.local.env
+.opencode/settings.local.json
+.opencode/*.local
+.opencode/secrets*
+.opencode/secrets/*
+
+# Copilot / other agents (optional, adjust as needed)
+.copilot/cache/
+.copilot/cache/*
+.copilot/tmp/
+.copilot/tmp/*
+.copilot/.env
+.copilot/.env.*
+.copilot/*.local.env
+.copilot/*.local
+.copilot/secrets*
+.copilot/secrets/*
+
+
+# =========================
+# IDE / editor local files
+# =========================
+
+.idea/
+.idea/*
+.vscode/*.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+
+
+# =========================
+# Build / generated
+# =========================
+
+build/
+dist/
+*.log
+logs/
+logs/*

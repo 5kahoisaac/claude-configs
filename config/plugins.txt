@@ -1,0 +1,7 @@
+# Plugins to install + enable. One "plugin@marketplace" per line.
+# The marketplace part must match a source registered in marketplaces.txt.
+# Add a plugin = add a line here.
+
+ecc@ecc
+codex@openai-codex
+andrej-karpathy-skills@karpathy-skills

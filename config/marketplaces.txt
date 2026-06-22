@@ -1,0 +1,7 @@
+# Plugin marketplaces to register. One source per line.
+# Source can be a git URL or an owner/repo shorthand.
+# Add a marketplace = add a line here.
+
+https://github.com/affaan-m/ECC.git
+openai/codex-plugin-cc
+forrestchang/andrej-karpathy-skills
