@@ -5,3 +5,4 @@
 https://github.com/affaan-m/ECC.git
 openai/codex-plugin-cc
 forrestchang/andrej-karpathy-skills
+anthropics/claude-plugins-official
