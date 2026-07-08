@@ -6,3 +6,4 @@ ecc@ecc
 codex@openai-codex
 andrej-karpathy-skills@karpathy-skills
 claude-code-setup@claude-plugins-official
+understand-anything@understand-anything
