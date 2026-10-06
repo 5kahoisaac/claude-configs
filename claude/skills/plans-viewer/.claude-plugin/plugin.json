@@ -1,0 +1,15 @@
+{
+  "name": "plans-viewer",
+  "version": "0.1.0",
+  "description": "Live pane with tabs for each plan .md file, rendered as markdown",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "planDirs": {
+      "type": "string",
+      "multiple": true,
+      "title": "Plan folders",
+      "description": "Folders whose *.md files are shown as plans. Paths are relative to the project root; absolute, ~ and .. paths are ignored.",
+      "default": [".claude/plans"]
+    }
+  }
+}

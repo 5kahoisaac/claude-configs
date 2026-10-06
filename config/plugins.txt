@@ -1,8 +1,0 @@
-# Plugins to install + enable. One "plugin@marketplace" per line.
-# The marketplace part must match a source registered in marketplaces.txt.
-# Add a plugin = add a line here.
-
-ecc@ecc
-andrej-karpathy-skills@karpathy-skills
-claude-code-setup@claude-plugins-official
-understand-anything@understand-anything
